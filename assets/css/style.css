@@ -8,205 +8,85 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    color: white;
-    background-color: #777;
+    color: #000000;
+    background-color: #f7f7f7;
 }
 
 h2 {
     font-family: "Exo", sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: white;
+    color: #000;
+}
+
+hr {
+    border: 0.5px solid #000;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.hr-2 {
+    border: 1px solid #000;
+    margin: 0 auto;
 }
 
 /*----------------------nav---------*/
 
-#logo {
-    float: left;
-    font-size: 280%;
-}
-
-#menu {
-    font-size: 110%;
-    list-style: none;
-    letter-spacing: 2px;
-}
-
-#logo, #menu {
-    line-height: 75px;
-}
-
-#menu li {
-    float: right;
-    margin-right: 30px;
-}
-
-#menu a {
-    text-decoration: none;
-    color: inherit;
-}
-
-#menu a:hover {
-    border-bottom: 1px solid white;
+.navbar-nav {
+    text-align: right;
 }
 
 /*----------------------hero-image---------*/
 
 #hero-image {
-    height: 600px;
+    height: 400px;
     width: 100%;
     background: url(/assets/images/ring.jpg) no-repeat center center;
     background-size: cover;
 }
 
 #hero-outer {
-    height: 600px;
+    height: 400px;
     width: 100%;
     overflow: hidden;
 }
 
 /*----------------------about---------*/
 
-#about-us {
-    height: 600px;
-}
-
-#left-about {
-    padding-top: 30px;
-    width: 50%;
-    float: left;
+.about-us-heading{
     text-align: center;
+    margin: 20px;
 }
 
-#left-about p {
-    width: 100%;
-}
-
-#right-about {
-    padding-top: 10px;
-    width: 50%;
-    float: right;
-}
-
-hr {
-    border: 0.5px solid white;
-    width: 100%;
-    margin: 5px 0;
-}
-
-.left-about-heading {
-    width: 50%;
-    float: right;
-    clear: both;
-    line-height: 20px;
-    margin-bottom: 30px;
-}
-
-.left-about-heading p {
-    padding-top: 5px;
-}
-
-#about-us-heading {
-    text-align: center;
-    margin: 15px 0;
-}
-
-#about-image-outer {
-    width: 400px;
-    height: 400px;
-    padding: 0px;
-    border-radius: 50%;
-    margin: 0 auto;
-}
-
-#about-image {
-    background: url(/assets/images/44324909_1974772689258138_658174871636803584_n.jpg) no-repeat;
-    height: 100%;
-    border-radius: 50%;
+.about-right {
+    margin-top: 10px;
 }
 
 /*----------------------classes---------*/
 
-#classes {
-    margin: 2.5%;
-}
-
-#classes-heading {
+.classes-heading {
     text-align: center;
-    margin: 15px 0;
+    margin: 20px;
 }
 
-#classes-outer {
-    height: 400px;
-}
 
-#classes-inner-left {
-    height: 100%;
-    width: 50%;
-    float: left;
-}
-
-#classes-inner-right {
-    height: 100%;
-    width: 50%;
-    float: left;
-}
-
-.class-card {
-    width: 95%;
-    height: 50%;
-    padding: 5px;
-    border: 1px solid #777;
-    margin: 0 auto;
-    margin-bottom: 10px;
-}
 
 /*----------------------contact---------*/
 
-#contact-section {
-    height: 400px;
-    margin: 2.5%;
-    margin-bottom: 50px;
+#contact {
+    margin-bottom: 10px;
+}
+
+.contact-heading {
+text-align: center;
+margin: 20px;
+}
+
+.map-container {
+    position: relative;
     overflow: hidden;
 }
 
-#contact-heading {
-    text-align: center;
-    margin: 15px 0;
-}
-
-#contact-map {
-    height: 95%;
-    width: 50%;
-    float: left;
-}
-
-#contact-info {
-    float: left;
-    margin-left: 5px;
-}
-
 /*----------------------footer---------*/
-
-#copyright {
-    float: left;
-    font-size: 180%;
-}
-
-#footer-links {
-    font-size: 110%;
-    list-style: none;
-    letter-spacing: 2px;
-}
-
-#footer-links li {
-    float: right;
-    margin-right: 30px;
-}
-
-#footer-links a {
-    text-decoration: none;
-    color: inherit;
-    font-size: 200%;
-}
 

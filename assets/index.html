@@ -5,6 +5,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="https://kit.fontawesome.com/d1f3fcb938.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="/assets/css/style.css">
@@ -14,21 +16,19 @@
 <body>
 	<!-----nav-->
 	<header>
-		<a href="index.html">
-			<h2 id="logo">EK Fight Gym</h2>
-		</a>
-		<nav>
-			<ul id="menu">
-				<li>
-					<a href="#contact-section">Contact</a>
-				</li>
-				<li>
-					<a href="#classes">Classes</a>
-				</li>
-				<li>
-					<a href="#about-us">About</a>
-				</li>
-			</ul>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<a class="navbar-brand" href="#">EK Fight Gym</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				<div class="navbar-nav">
+					<a class="nav-item nav-link active" href="#about-us">About Us
+						<span class="sr-only">(current)</span></a>
+					<a class="nav-item nav-link" href="#classes">Classes</a>
+					<a class="nav-item nav-link" href="#contact">Contact</a>
+				</div>
+			</div>
 		</nav>
 	</header>
 	<!-----hero-image-->
@@ -36,103 +36,168 @@
 		<div id="hero-image"></div>
 	</section>
 	<!-----about-->
-	<section id="about-us">
-		<h1 id="about-us-heading">About Us</h1>
-		<div id="left-about">
-			<div class="left-about-heading">
+	<h2 class="about-us-heading">About Us</h2>
+    <hr>
+	<div class="container" id="about-us">
+		<div class="row">
+			<div class="col about-left">
 				<h2>John Craig - Head Trainer</h2>
-				<hr>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero quaerat omnis saepe pariatur in
-					totam esse autem ad vel dignissimos itaque, quae laborum fugiat cumque magnam amet nobis suscipit
-					vitae</p>
+				<hr class="hr-2">
+				<p>John Craig is a lifelong Muay Thai practioner that started from a very young age. When he was
+					a teenager he moved to Thailand to get proper tradional training in the ways of Muay Thai, After
+					many
+					years of training and fighting in Thailand he decided to bring his newfound knowledge back to
+					Scotland.</p>
 			</div>
-			<div class="left-about-heading">
-				<h2>Alison - Women's Trainer</h2>
-				<hr>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero quaerat omnis saepe pariatur in
-					totam esse autem ad vel dignissimos itaque, quae laborum fugiat cumque magnam amet nobis suscipit
-					vitae</p>
-			</div>
-		</div>
-		<div id="right-about">
-			<div id="about-image-outer">
-				<div id="about-image"></div>
+			<div class="col-sm-6">
+				<img src="/assets/images/john-img-400x400.jpg" alt="" class="img-thumbnail float-right d-none d-sm-block about-image">
+            </div>
 			</div>
 		</div>
-	</section>
-	<!-----classes-->
-	<section id="classes">
-		<h1 id="classes-heading">Classes</h1>
-		<div id="classes-outer">
-			<div id="classes-inner-left">
-				<div class="class-card">
-					<h2>Adult's Class</h2>
-					<hr>
-					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque quia rerum laboriosam vitae
-						eveniet cupiditate sunt, recusandae praesentium explicabo maxime at sequi similique harum
-						quaerat quibusdam provident a tenetur adipisci!</p>
-				</div>
-				<div class="class-card">
-					<h2>Women's Class</h2>
-					<hr>
-					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque quia rerum laboriosam vitae
-						eveniet cupiditate sunt, recusandae praesentium explicabo maxime at sequi similique harum
-						quaerat quibusdam provident a tenetur adipisci!</p>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<img src="/assets/images/alison-400x400.jpg" alt="" class="img-thumbnail float-left d-none d-sm-block about-image">
+            </div>
+					<div class="col about-right">
+						<h2 class>Alison - Womens/Kids Trainer</h2>
+						<hr class="hr-2">
+						<p>Alison has trained for many years under the watchful eye of John and is now in her own right
+							an
+							expert of Muay Thai. After a long career and many fights, she now takes the women's classes
+							at EK
+							Fight Gym.</p>
+					</div>
 				</div>
 			</div>
-			<div id="classes-inner-right">
-				<div class="class-card">
-					<h2>Kid's Class</h2>
-					<hr>
-					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque quia rerum laboriosam vitae
-						eveniet cupiditate sunt, recusandae praesentium explicabo maxime at sequi similique harum
-						quaerat quibusdam provident a tenetur adipisci!</p>
+			<!-----classes-->
+			<h2 class="classes-heading">Classes</h2>
+            <hr>
+			<div class="container" id="classes">
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="card bg-dark border-secondary">
+							<div class="card-body">
+								<h5 class="card-title text-white">Adult's Class</h5>
+								<p class="card-text text-white">
+									An all-levels class, focusing mainly on Muay Thai technique and
+									pad hitting sessions.<br>
+									<span class=" text-primary font-weight-bolder">Monday - 6pm-7pm<br>
+                                            Tuesday - 6pm-7pm<br>
+                                            Wednesday - 6pm-7pm<br>
+                                            Friday - 6pm-7pm</span><br>
+                                </p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="card bg-dark border-secondary">
+							<div class="card-body">
+								<h5 class="card-title text-white">Women's Class</h5>
+								<p class="card-text text-white">
+									A womens only class, for all-levels, focusing mainly on working up a sweat with
+									circuits and HIIT.
+									Some Muay Thai technique and pad work involved.<br>
+									<span class="text-primary font-weight-bolder">Monday - 5pm-6pm<br>
+                                Thursday - 6pm-7pm</span><br>
+                                </p>
+							</div>
+						</div>
+					</div>
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-6">
+								<div class="card bg-dark border-secondary">
+									<div class="card-body">
+										<h5 class="card-title text-white">Kid's Class</h5>
+										<p class="card-text text-white">
+											Kids class, for ages 5+, give your kids some great exercise and a confidence
+											boost.
+											Wether they want to compete, or just meet some great friends and get some
+											exercise, the kids class is a great intro into martial arts.<br>
+											<span class="text-primary font-weight-bolder">Tuesday - 5pm-6pm<br>
+                                        Thursday - 5pm-6pm</span><br>
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="card bg-dark border-secondary">
+									<div class="card-body">
+										<h5 class="card-title text-white">Sparring Class</h5>
+										<p class="card-text text-white">
+											Our sparring class is open to all-levels, but it is recommended to have some
+											prior fighting experience,
+											Full-contact sparring, with pads ofcourse. Whats not to love.<br>
+											<span class="text-primary font-weight-bolder">Saturday - 11am-1pm</span><br>
+                                        </p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
-				<div class="class-card">
-					<h2>Sparring Class</h2>
-					<hr>
-					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque quia rerum laboriosam vitae
-						eveniet cupiditate sunt, recusandae praesentium explicabo maxime at sequi similique harum
-						quaerat quibusdam provident a tenetur adipisci!</p>
+				<div class="row">
+					<div class="col"></div>
+					<div class="col"></div>
 				</div>
 			</div>
-		</div>
-	</section>
-	<!-----contact-->
-	<section id="contact-section">
-		<h1 id="contact-heading">Contact</h1>
-		<div id="contact-map">
-			<iframe
-				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.3962023832596!2d-4.218080184603244!3d55.76899038055769!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x488839cf93e80723%3A0xdb7f156071d55e67!2sEk%20fight%20gym!5e0!3m2!1sen!2suk!4v1581525226902!5m2!1sen!2suk"
-				width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" target="_blank"></iframe>
-		</div>
-		<div id="contact-info">
-			<h2>East Kilbride</h2>
-			<p>
-				Unit 4 Glenburn Court,<br>
-                19 Glenburn road,<br>
-                north college Milton<br>
-                East Kilbride<br>
-                <hr>
-                <i class="fas fa-phone">: 07850 270758</i>
-			</p>
-		</div>
-	</section>
-	<!-----footer-->
-	<footer>
-		<p id="copyright">©2020 James Stewart</p>
-		<nav>
-			<ul id="footer-links">
-				<li>
-					<a
-						href="https://www.facebook.com/pg/smtcglasgow/about/?ref=page_internal" target="_blank"><i class="fab fa-facebook"></i></a>
-				</li>
-				<li>
-					<a href="https://www.instagram.com/ekfightgym/" target="_blank"><i class="fab fa-instagram"></i></a>
-				</li>
-			</ul>
-		</nav>
-	</footer>
+			<!-----contact-->
+			<h2 class="contact-heading">Contact</h2>
+            <hr>
+			<div class="container" id="contact">
+				<div class="row">
+					<div class="col">
+						<div class="map-container">
+							<iframe
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.3962023832596!2d-4.218080184603244!3d55.76899038055769!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x488839cf93e80723%3A0xdb7f156071d55e67!2sEk%20fight%20gym!5e0!3m2!1sen!2suk!4v1581960978555!5m2!1sen!2suk"
+								width="600" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+						</div>
+					</div>
+					<div class="col">
+						<h3>EK Fight Gym</h3>
+						<p>Unit 4 Glenburn Court,<br>
+                    19 Glenburn road,<br>
+                    north college Milton <br>
+                    East Kilbride<br>
+                    Glasgow, United Kingdom<br>
+							<i class="fas fa-phone"></i> 07850 270758</p>
+					</div>
+				</div>
+			</div>
+			<!-----footer-->
+			<footer class="page-footer font-small bg-dark pt-4 footer">
+				<div class="container">
+					<ul class="list-unstyled list-inline text-center">
+						<li class="list-inline-item">
+							<a href="https://www.facebook.com/smtcglasgow/" class="btn-floating btn-fb mx-1" target="_blank">
+								<i class="fab fa-facebook-f fa-lg"> </i>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a href="https://www.instagram.com/ekfightgym/" class="btn-floating btn-tw mx-1" target="_blank">
+								<i class="fab fa-instagram fa-lg"> </i>
+							</a>
+						</li>
+
+					</ul>
+				</div>
+				<div class="footer-copyright text-center py-3">© 2020 Copyright:
+					<a href="https://www.linkedin.com/in/james-stewart-5a816b196/" target="_blank"> James Stewart</a>
+				</div>
+			</footer>
+			<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+				integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+				crossorigin="anonymous">
+			</script>
+			<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+				integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+				crossorigin="anonymous">
+			</script>
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+				integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+				crossorigin="anonymous">
+			</script>
 </body>
 
 </html>
