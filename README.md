@@ -1,33 +1,33 @@
-EK Fight Gym Webpage
-Project: User Centric Frontend Development - Code Institute
+<h1>EK Fight Gym Webpage</h1>
+<h3>Project</h3> User Centric Frontend Development - Code Institute
 
 This is my website made to present my second home, it details the coaches, classes and contact info.
 
-Demo
+<h3>Demo</h3>
 A live demo can be found at 
 
-UX
+<h3>UX</h3>
 My idea was to make a webpage to easily display important information that anyone not familiar with the gym 
 might want to know.
 
-Technologies
+<h3>Technologies</h3>
 HTML
 CSS
 Bootstrap
 
-Testing
+<h3>Testing</h3>
 This site was manually tested to ensure compatibility and responsiveness.
 
-Deployment
+<h3>Deployment</h3>
 The live site is deployed on GitHub pages.
 
-Credits
-Content
+<h1>Credits</h1>
+<h3>Content</h3>
 All content in the "About us" and "Classes" sections in this site were written by me.
 
-Media
+<h3>Media</h3>
 All photos were taken from https://www.facebook.com/smtcglasgow/.
 
-Acknowledgements
+<h3>Acknowledgements</h3>
 The footer was taken from https://mdbootstrap.com/docs/jquery/navigation/footer/ and modified to better fit the 
-structure of the webpage.
+style and needs of the webpage.

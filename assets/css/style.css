@@ -19,22 +19,27 @@ h2 {
     color: #000;
 }
 
+.section-heading {
+    text-align: center;
+    margin: 20px;
+}
+}
+
 hr {
     border: 0.5px solid #000;
     width: 90%;
     margin: 0 auto;
-    margin-bottom: 10px;
-}
-
-.hr-2 {
-    border: 1px solid #000;
-    margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 /*----------------------nav---------*/
 
 .navbar-nav {
     text-align: right;
+}
+
+.logo {
+    border: 1px solid #000;
 }
 
 /*----------------------hero-image---------*/
@@ -54,9 +59,14 @@ hr {
 
 /*----------------------about---------*/
 
-.about-us-heading{
-    text-align: center;
-    margin: 20px;
+.hr-2 {
+    border: 1px solid #000;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+ .about-info {
+    margin-top: 10px;
 }
 
 .about-right {
@@ -65,22 +75,18 @@ hr {
 
 /*----------------------classes---------*/
 
-.classes-heading {
+.class-price {
+    font-family: "Exo", sans-serif; 
     text-align: center;
-    margin: 20px;
+    text-transform: uppercase;
+    color: red;
+    size: 1.5em;
 }
-
-
 
 /*----------------------contact---------*/
 
 #contact {
     margin-bottom: 10px;
-}
-
-.contact-heading {
-text-align: center;
-margin: 20px;
 }
 
 .map-container {
