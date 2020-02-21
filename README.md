@@ -26,7 +26,7 @@ Logo used from gym shorts and Facebook<br>
 Roboto and Exo fonts used throught the page.<br>
 
 <h3>Mockups</h3>
-(links to figma mockups)
+<a href="/assets/Wireframe/Wireframe.jpg">Initial wireframe</a>
 
 <h3>Technologies</h3>
 - HTML<br>
@@ -47,6 +47,7 @@ All content in the "About us" and "Classes" sections in this site were written b
 All photos were taken from https://www.facebook.com/smtcglasgow/.
 
 <h3>Acknowledgements</h3>
+The Facebook feed was embedded using this <a href="https://developers.facebook.com/docs/plugins/page-plugin/">plugin</a>
 The footer was taken from https://mdbootstrap.com/docs/jquery/navigation/footer/ and modified to better fit the 
 style and needs of the webpage.<br>
 Thanks to <a href="https://www.linkedin.com/in/oluwaseun-owonikoko-190318135/" target="_blank">Owonikoko Oluwaseun</a> for giving me lots of support and keeping me on the right track.
