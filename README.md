@@ -9,7 +9,7 @@ might want to know.
 A live demo can be found at 
 
 <h3>UX</h3>
-![](images/UX-Images.png)
+![](https://github.com/James-Stewart110/milestone-project/blob/master/mockups/UX-Image.png)
 
 
 <h3>Users</h3>
@@ -26,12 +26,14 @@ Logo used from gym shorts and Facebook<br>
 Roboto and Exo fonts used throught the page.<br>
 
 <h3>Mockups</h3>
-<a href="/assets/Wireframe/Wireframe.jpg">Initial wireframe</a>
+[about](https://www.figma.com/file/mfFqI6RbIO5u7GqHcGhVII/Untitled?node-id=0%3A1)<br>
+[classes](https://www.figma.com/file/mfFqI6RbIO5u7GqHcGhVII/Untitled?node-id=2%3A7)
 
 <h3>Technologies</h3>
 - HTML<br>
 - CSS<br>
 - Bootstrap<br>
+- GitHub<br>
 
 <h3>Testing</h3>
 This site was manually tested to ensure compatibility and responsiveness.
