@@ -9,7 +9,7 @@ might want to know.
 A live demo can be found at 
 
 <h3>UX</h3>
-![image](https://user-images.githubusercontent.com/57805891/75036870-c7b62d00-54aa-11ea-8416-7e2a252ddf37.png)
+![](images/UX-Images.png)
 
 
 <h3>Users</h3>
