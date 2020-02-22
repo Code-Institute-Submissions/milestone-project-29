@@ -9,25 +9,22 @@ might want to know.
 A live demo can be found at 
 
 <h3>UX</h3>
-![](https://github.com/James-Stewart110/milestone-project/blob/master/mockups/UX-Image.png)
-
+<img src="https://github.com/James-Stewart110/milestone-project/blob/master/mockups/UX-Image.png">
 
 <h3>Users</h3>
 The expected users of this site are Muay Thai fighters, fans or anyone wanting to get information on
 the gym and its schedual.
 
 <h3>User Stories</h3>
-1.<br>
-2.<br>
-3.<br>
+1.Someone interested in joining wants to know when the classes are on.<br>
 
 <h3>Design</h3>
 Logo used from gym shorts and Facebook<br>
 Roboto and Exo fonts used throught the page.<br>
 
 <h3>Mockups</h3>
-[about](https://www.figma.com/file/mfFqI6RbIO5u7GqHcGhVII/Untitled?node-id=0%3A1)<br>
-[classes](https://www.figma.com/file/mfFqI6RbIO5u7GqHcGhVII/Untitled?node-id=2%3A7)
+<a href="https://www.figma.com/file/mfFqI6RbIO5u7GqHcGhVII/Untitled?node-id=0%3A1" target="_blank">About Section</a><br>
+<a href="https://www.figma.com/file/mfFqI6RbIO5u7GqHcGhVII/Untitled?node-id=2%3A7" target="_blank">Classes Section</a><br>
 
 <h3>Technologies</h3>
 - HTML<br>
@@ -37,6 +34,13 @@ Roboto and Exo fonts used throught the page.<br>
 
 <h3>Testing</h3>
 This site was manually tested to ensure compatibility and responsiveness.
+<h4>User Stories</h4>
+<ol>
+  <li>Someone interested in joining wants to know when the classes are on.<br>
+  -clicks "classes" tab in nav.<br>
+  -directed to classes section.
+  </li>
+</ol>
 
 <h3>Deployment</h3>
 The live site is deployed on GitHub pages.
