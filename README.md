@@ -1,12 +1,12 @@
 <h1>EK Fight Gym Webpage</h1>
 <h3>Project</h3> User Centric Frontend Development - Code Institute
 
-This is my website made to present my second home, it details the coaches, classes and contact info.
+This is my website made to present my second home and favourite place, it details the coaches, classes and contact info.
 My idea was to make a webpage to easily display important information that anyone not familiar with the gym 
 might want to know.
 
 <h3>Demo</h3>
-A live demo can be found at 
+A live demo can be found <a href="https://james-stewart110.github.io/milestone-project/">here</a>
 
 <h3>UX</h3>
 <img src="https://github.com/James-Stewart110/milestone-project/blob/master/mockups/UX-Image.png">
@@ -16,7 +16,8 @@ The expected users of this site are Muay Thai fighters, fans or anyone wanting t
 the gym and its schedual.
 
 <h3>User Stories</h3>
-1.Someone interested in joining wants to know when the classes are on.<br>
+1.A person interested in joining wants to know when the classes are on.<br>
+2.a fan of the gym wants to know whats happening.<br>
 
 <h3>Design</h3>
 Logo used from gym shorts and Facebook<br>
@@ -31,6 +32,7 @@ Roboto and Exo fonts used throught the page.<br>
 - CSS<br>
 - Bootstrap<br>
 - GitHub<br>
+- Google Chrome(dev tools)
 
 <h3>Testing</h3>
 This site was manually tested to ensure compatibility and responsiveness.
@@ -40,10 +42,14 @@ This site was manually tested to ensure compatibility and responsiveness.
   -clicks "classes" tab in nav.<br>
   -directed to classes section.
   </li>
+  <li>A fan of the gym wants to know whats happening.<br>
+  -they realised i had not added a "Whats happening" heading to the nav.<br>
+  -they brought this information back and i fixed my mistake.
+  </li>
 </ol>
 
 <h3>Deployment</h3>
-The live site is deployed on GitHub pages.
+The live site is deployed on <a href="https://james-stewart110.github.io/milestone-project/">GitHub pages.</a>
 
 <h1>Credits</h1>
 <h3>Content</h3>
