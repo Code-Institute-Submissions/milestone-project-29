@@ -17,7 +17,7 @@ the gym and its schedual.
 
 <h3>User Stories</h3>
 1.A person interested in joining wants to know when the classes are on.<br>
-2.a fan of the gym wants to know whats happening.<br>
+2.A fan of the gym wants to know whats happening.<br>
 
 <h3>Design</h3>
 Logo used from gym shorts and Facebook<br>
