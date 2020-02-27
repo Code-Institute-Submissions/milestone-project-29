@@ -33,10 +33,6 @@ hr {
 
 /*----------------------nav---------*/
 
-.navbar-nav {
-    text-align: right;
-}
-
 .logo {
     border: 1px solid #000;
 }
@@ -50,12 +46,6 @@ hr {
     background-size: cover;
 }
 
-#hero-outer {
-    height: 500px;
-    width: 100%;
-    margin-top: 50px;
-    
-}
 
 /*----------------------about---------*/
 
@@ -88,14 +78,6 @@ hr {
     text-transform: uppercase;
     color: red;
     size: 1.5em;
-}
-
-#classes {
-    margin-bottom: 7%;
-}
-
-.classes-bottom {
-    margin-top: 2%;
 }
 
 /*----------------------social---------*/

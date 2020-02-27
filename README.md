@@ -53,7 +53,7 @@ The live site is deployed on <a href="https://james-stewart110.github.io/milesto
 
 <h1>Credits</h1>
 <h3>Content</h3>
-All content in the "About us" and "Classes" sections in this site were written by me.
+All content in the "About us", "Classes" and "What's happening" sections in this site were written by me.
 
 <h3>Media</h3>
 All photos were taken from https://www.facebook.com/smtcglasgow/.
