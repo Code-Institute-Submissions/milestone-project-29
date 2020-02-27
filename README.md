@@ -21,7 +21,7 @@ the gym and its schedual.
 
 <h3>Design</h3>
 Logo used from gym shorts and Facebook<br>
-Roboto and Exo fonts used throught the page.<br>
+Roboto and Exo fonts used throughout the page.<br>
 
 <h3>Mockups</h3>
 <a href="https://www.figma.com/file/mfFqI6RbIO5u7GqHcGhVII/Untitled?node-id=0%3A1" target="_blank">About Section</a><br>
@@ -32,7 +32,7 @@ Roboto and Exo fonts used throught the page.<br>
 - CSS<br>
 - Bootstrap<br>
 - GitHub<br>
-- Google Chrome(dev tools)
+- Google Chrome(dev tools)<br>
 
 <h3>Testing</h3>
 This site was manually tested to ensure compatibility and responsiveness.
