@@ -20,13 +20,12 @@
 			<a class="navbar-brand" href="index.html">
 				<img src="assets/images/73546659_2587631407972260_4564734157502021632_o.jpg" alt="" class="rounded logo" width="150px" height="50px">
             </a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span></button>
 				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 					<div class="navbar-nav">
-						<a class="nav-item nav-link active" href="#about-us">About Us
-							<span class="sr-only">(current)</span></a>
+						<a class="nav-item nav-link active" href="#about-us">About
+							Us<span class="sr-only">(current)</span></a>
 						<a class="nav-item nav-link" href="#classes">Classes</a>
 						<a class="nav-item nav-link" href="#social">What's happening</a>
 						<a class="nav-item nav-link" href="#contact">Contact</a>
@@ -35,7 +34,7 @@
 		</nav>
 	</header>
 	<!-----hero-image-->
-	<img src="assets/images/ring.jpg" class="img-fluid" id="hero-image" alt="Responsive image">
+	<span class="border-primary"><img src="assets/images/73546659_2587631407972260_4564734157502021632_o.jpg" class="img-fluid" id="hero-image" alt="Responsive image"></span>
 	<!-----about(bootstrap-component)-->
 	<h2 class="section-heading my-4">About Us</h2>
 	<hr>
@@ -44,7 +43,7 @@
 			<div class="row no-gutters">
 				<div class="col-md-4">
 					<img src="assets/images/john-img-400x400.jpg" class="card-img rounded-circle" alt="..." height="300">
-    </div>
+                </div>
 					<div class="col-md-8">
 						<div class="card-body">
 							<h4 class="card-title">John Craig</h4>
@@ -80,13 +79,13 @@
 					</div>
 					<div class="col-md-4">
 						<img src="assets/images/alison-400x400.jpg" class="card-img rounded-circle d-none d-sm-block" alt="..." height="300">
-    </div>
+                    </div>
 					</div>
 				</div>
 			</div>
 			<!-----classes(bootstrap-component)-->
 			<h2 class="section-heading my-4" id="classes">Classes</h2>
-			<p class="class-price">All classes £6</p>
+			<p class="class-price" id="class-price">All classes <span class="badge badge-pill badge-primary"> £6</span></p>
 			<hr class="my-4">
 			<div class="container">
 				<div class="row row-cols-1 row-cols-md-2">
@@ -100,7 +99,9 @@
 									<span class=" text-primary font-weight-bolder">Monday - 6pm-7pm<br>
                                             Tuesday - 6pm-7pm<br>
                                             Wednesday - 6pm-7pm<br>
-                                            Friday - 6pm-7pm</span><br></p>
+                                            Friday - 6pm-7pm
+                                    </span><br>
+                                </p>
 							</div>
 						</div>
 					</div>
@@ -113,8 +114,9 @@
 									circuits and HIIT.
 									Some Muay Thai technique and pad work involved.<br>
 									<span class="text-primary font-weight-bolder">Monday - 5pm-6pm<br>
-                                Thursday - 6pm-7pm<br>
-                                Sunday - 11am-12pm</span><br></p>
+                                    Thursday - 6pm-7pm<br>
+                                    Sunday - 11am-12pm</span><br>
+                                </p>
 							</div>
 						</div>
 					</div>
@@ -128,7 +130,8 @@
 									Wether they want to compete, or just meet some great friends and get some
 									exercise, the kids class is a great intro into martial arts.<br>
 									<span class="text-primary font-weight-bolder">Tuesday - 5pm-6pm<br>
-                                        Thursday - 5pm-6pm</span><br></p>
+                                    Thursday - 5pm-6pm</span><br>
+                                </p>
 							</div>
 						</div>
 					</div>
@@ -141,7 +144,8 @@
 									Full-contact sparring, with pads of course. Whats not to love.<br>
 									<span class="text-success">Shin pads and gloves available at gym.</span><br>
 									<span class="text-primary font-weight-bolder">Saturday - 11am-1pm</span><br>
-									<span class="text-primary font-weight-bolder">Sunday - 11am-1pm</span><br></p>
+									<span class="text-primary font-weight-bolder">Sunday - 11am-1pm</span><br>
+                                </p>
 							</div>
 						</div>
 					</div>
@@ -165,7 +169,7 @@
 							allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe>
 						<h3 class="sparring-heading">Sparring class</h3>
 						<hr>
-						<p>A snippet from our sparring class, every Saturday 11am.<br>
+						<p>A snippet from our sparring class, every Saturday and Sunday 11am.<br>
 							<span class="text-success font-italic">Dont have any experience?</span> Dont worry our
 							sparring classes cater to
 							all levels.
@@ -189,10 +193,10 @@
 					<div class="col">
 						<h3>EK Fight Gym</h3>
 						<p>Unit 4 Glenburn Court,<br>
-                    19 Glenburn road,<br>
-                    north college Milton <br>
-                    East Kilbride<br>
-                    Glasgow, United Kingdom<br>
+                           19 Glenburn road,<br>
+                           North College Milton <br>
+                           East Kilbride<br>
+                           Glasgow, United Kingdom<br>
 							<div class="row w-100"></div>
 							<i class="fas fa-phone fa-lg"></i> 07850 270758
 						</p>
@@ -200,7 +204,7 @@
 				</div>
 			</div>
 			<!-----footer-->
-			<footer class="page-footer font-small bg-dark pt-4 footer">
+			<footer class="page-footer font-small bg-dark pt-4 footer" id="footer">
 				<div class="container">
 					<ul class="list-unstyled list-inline text-center">
 						<li class="list-inline-item">

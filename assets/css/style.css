@@ -67,17 +67,17 @@ hr {
     background-color: #f7f7f7;
 }
  
-#about-us {
-     margin-bottom: 7%;
- }
 /*----------------------classes---------*/
 
 .class-price {
     font-family: "Exo", sans-serif; 
     text-align: center;
     text-transform: uppercase;
-    color: red;
     size: 1.5em;
+}
+
+#class-price span {
+    font-size: 1.5em;
 }
 
 /*----------------------social---------*/
@@ -90,15 +90,7 @@ hr {
     font-family: "Exo", sans-serif;
 }
 
-#whats-happening {
-    margin-bottom: 7%;
-}
-
 /*----------------------contact---------*/
-
-#contact {
-    margin-bottom: 10px;
-}
 
 .map-container {
     position: relative;
@@ -107,3 +99,6 @@ hr {
 
 /*----------------------footer---------*/
 
+#footer {
+    margin-top: 7%;
+}
