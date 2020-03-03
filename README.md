@@ -9,7 +9,7 @@ might want to know.
 A live demo can be found <a href="https://james-stewart110.github.io/milestone-project/">here</a>
 
 <h3>UX</h3>
-<img src="https://github.com/James-Stewart110/milestone-project/blob/master/mockups/UX-Image.png">
+<img src="https://github.com/James-Stewart110/milestone-project/blob/master/mockups/ux-image-2.png">
 
 <h3>Users</h3>
 The expected users of this site are Muay Thai fighters, fans or anyone wanting to get information on
@@ -40,7 +40,7 @@ Roboto and Exo fonts used throughout the page.<br>
 - GitHub<br>
 - Gitpod<br>
 - Google Chrome(dev tools)<br>
-- Google Maps
+- Google Maps<br>
 - Facebook.com(media and inspiration)<br>
 - Figma.com(Wireframes)<br>
 - AmiResponsive.com(testing responsivness)<br>
