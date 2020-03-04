@@ -1,73 +1,71 @@
-<h1>EK Fight Gym Webpage</h1>
-<h3>Project</h3> User Centric Frontend Development - Code Institute
+# EK Fight Gym Webpage #
+### Project User Centric Frontend Development - Code Institute ###
 
 This is my website made to present my second home and favourite place, it details the coaches, classes and contact info.
 My idea was to make a webpage to easily display important information that anyone not familiar with the gym 
 might want to know.
 
-<h3>Demo</h3>
+### Demo ###
 A live demo can be found <a href="https://james-stewart110.github.io/milestone-project/">here</a>
 
-<h3>UX</h3>
+### UX ###
 <img src="https://github.com/James-Stewart110/milestone-project/blob/master/mockups/ux-image-2.png">
 
-<h3>Users</h3>
+### Users ###
 The expected users of this site are Muay Thai fighters, fans or anyone wanting to get information on
 the gym and its schedual.
 
-<h3>User Stories</h3>
-1.A person interested in joining wants to know when the classes are on.<br>
-2.A fan of the gym wants to know whats happening.<br>
-3.A user wants to know more information about the trainors.<br>
-4.A fighter wants to check the Facebook feed.<br>
+### User Stories ###
+1. A person interested in joining wants to know when the classes are on.<br>
+2. A fan of the gym wants to know whats happening.<br>
+3. A user wants to know more information about the trainors.<br>
+4. A fighter wants to check the Facebook feed.<br>
 
-<h3>Design</h3>
-Colour scheme consisted of:<br>
- - Bootstrap primary colour class - similar blue to gym shorts.<br>
- - Off white background - #f7f7f7 - easier on the eyes than plain white.<br>
- - Bootstrap bg-dark class - contrast to the light background.<br>
-Logo used from gym shorts and Facebook.<br>
-Roboto and Exo fonts used throughout the page.<br>
+### Design ###
+* Colour scheme consisted of:<br>
+  * Bootstrap primary colour class - similar blue to gym shorts.<br>
+  * Off white background - #f7f7f7 - easier on the eyes than plain white.<br>
+  * Bootstrap bg-dark class - contrast to the light background.<br>
+* Logo used from gym shorts and Facebook.<br>
+* Roboto and Exo fonts used throughout the page.<br>
 
-<h3>Mockups</h3>
+### Mockups ###
 <a href="https://www.figma.com/file/mfFqI6RbIO5u7GqHcGhVII/Untitled?node-id=0%3A1" target="_blank">About Section</a><br>
 <a href="https://www.figma.com/file/mfFqI6RbIO5u7GqHcGhVII/Untitled?node-id=2%3A7" target="_blank">Classes Section</a><br>
 
-<h3>Technologies</h3>
-- HTML<br>
-- CSS<br>
-- Bootstrap<br>
-- GitHub<br>
-- Gitpod<br>
-- Google Chrome(dev tools)<br>
-- Google Maps<br>
-- Facebook.com(media and inspiration)<br>
-- Figma.com(Wireframes)<br>
-- AmiResponsive.com(testing responsivness)<br>
+### Technologies ###
+* <a href="https://en.wikipedia.org/wiki/HTML">HTML</a>
+* <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets">CSS</a>
+* <a href="https://getbootstrap.com/docs/4.4/getting-started/introduction/">Bootstrap</a>
+* <a href="https://github.com/">Github</a>
+* <a href="https://www.gitpod.io/">Gitpod</a>
+* <a href="https://www.google.com/chrome/">Google Chrome</a>(Dev tools)
+* <a href="https://www.google.com/maps">Google Maps</a>
+* <a href="https://www.facebook.com/smtcglasgow/">Facebook</a>(Media and photos)
+* <a href="https://www.figma.com/">Figma.com</a>(Wireframes)
+* <a href="http://ami.responsivedesign.is/">AmiResponsive.com</a>(testing responsivness)
 
-<h3>Testing</h3>
-This site was manually tested by me, my friends and my family to ensure compatibility and responsiveness.
+### Testing ###
+This site was manually tested by me, my friends and my family to ensure that it is compatible with all browsers 
+and is responsive on all standard screen sizes.
+
 <h4>User Stories</h4>
-<ol>
-  <li>Someone interested in joining wants to know when the classes are on.<br>
-  -Clicks "classes" tab in nav.<br>
-  -Directed to classes section.
-  </li>
-  <li>A fan of the gym wants to know whats happening.<br>
-  -They realised i had not added a "Whats happening" heading to the nav.<br>
-  -They brought this information back and i fixed my mistake.
-  </li>
-  <li>A user wants to know more information about the trainors.<br>
-  -The user clicks the "About Us" tab in the nav.<br>
-  -On the about us section the user finds the information they need.<br>
-  </li>
-  <li>A fighter wants to check the Facebook feed.<br>
-  -A fighter wants to see if any new photos have been uploaded to Facebook.<br>
-  -On the "What's Happening" section the fighter can see the Facebook feed.<br>
-  </li>
-</ol>
 
-<h3>Deployment</h3>
+* Someone interested in joining wants to know when the classes are on.
+  * Clicks "classes" tab in nav.
+  * Directed to classes section.
+* A fan of the gym wants to know whats happening.
+  * They realised I had not added a "Whats happening" heading to the nav.
+  * They brought this information back and I fixed my mistake.
+* A user wants to know more information about the trainers.
+  * The user clicks the "About Us" tab in the nav.
+  * On the about us section the user finds the information they need.
+* A fighter wants to check the Facebook feed.
+  * A fighter wants to see if any new photos have been uploaded to Facebook.
+  * On the "What's Happening" section the fighter can see the Facebook feed.
+
+
+### Deployment ###
 The live site is deployed on <a href="https://james-stewart110.github.io/milestone-project/">GitHub pages.</a>
 
 The process involved:
@@ -92,21 +90,21 @@ To deploy your own version of the website:<br>
 - Visit the link provided<br>
 - Your website with any made changes will appear<br>
 - Saved changes to the website will appear here after refreshing the page<br>
- -The benefits of hosting your website on GitHub pages is that any pushed changes to your project will automatically update the website. Development branches can be created and merged to the master when complete.<br>
+- The benefits of hosting your website on GitHub pages is that any pushed changes to your project will automatically update the website. Development branches can be created and merged to the master when complete.<br>
 
 It may take a moment for changes to appear on the hosted website.<br>
 
-<h1>Credits</h1>
-<h3>Content</h3>
+# Credits #
+### Content ###
 All content in the "About us", "Classes" and "What's happening" sections in this site were written by me.<br>
 README.md was based on https://github.com/Pattern-Projects/oireachtas-ifd-project/blob/master/README.md,<br>
 and heavily modified to suit my webpage.
 
-<h3>Media</h3>
+### Media ###
 All photos on the webpage were taken from https://www.facebook.com/smtcglasgow/.<br>
 Mockups were made using https://www.Figma.com<br>
 
-<h3>Acknowledgements</h3>
+### Acknowledgements ###
 The Facebook feed was embedded using this <a href="https://developers.facebook.com/docs/plugins/page-plugin/">plugin</a><br>
 The footer was taken from https://mdbootstrap.com/docs/jquery/navigation/footer/ and modified to better fit the 
 style and needs of the webpage.<br>

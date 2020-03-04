@@ -102,3 +102,12 @@ hr {
 #footer {
     margin-top: 7%;
 }
+
+/*----------------------media-query---------*/
+
+@media (max-width: 768px) {
+    #map {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
