@@ -47,7 +47,8 @@ the gym and its schedual.
 
 ### Testing ###
 This site was manually tested by me, my friends and my family to ensure that it is compatible with all browsers 
-and is responsive on all standard screen sizes.
+and is responsive on all standard screen sizes.<br>
+The HTML code was formatted using https://htmlformatter.com/.
 
 <h4>User Stories</h4>
 
